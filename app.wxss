@@ -1,0 +1,18 @@
+/* 全局引入样式文件 */
+@import "./styles/iconfont.wxss";
+
+page,view,text,swiper,swiper-item,image,navigator{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 定义主题颜色 通过变量来实现 */
+page {
+    --themeColor:#eb4450;
+    /* 定义统一字体大小 */
+    font-size: 28rpx;
+}
+image{
+    width: 100%;
+}
+
